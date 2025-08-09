@@ -36,7 +36,7 @@ requirements.txt # Python Dependencies
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/<your-username>/fastapi-mongodb-redis-pattern.git
+git clone https://github.com/Gaetan26/fastapi-mongodb-redis-pattern.git
 cd fastapi-mongodb-redis-pattern
 ```
 
