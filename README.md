@@ -48,8 +48,9 @@ pip install -r requirements.txt
 3. **Configure Environment Variables**
 Create an `.env` file based on `.env.example`:
 ```env
-MONGODB_URI=mongodb://localhost:27017
-REDIS_URL=redis://localhost:6379
+MONGO_URI=mongodb://localhost:27017/
+REDIS_SERVER=localhost
+REDIS_PORT=6379
 ```
 
 4. **Start the Server**
