@@ -1,0 +1,68 @@
+# Environnement Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+.env
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.env.*
+
+# Dependancies
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+pip-wheel-metadata/
+
+# FastAPI + Uvicorn
+instance/
+*.log
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests
+htmlcov/
+.tox/
+.coverage
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Mypy / Pylint / Ruff
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.pylint.d/
+
+# Docker
+*.pid
+*.pid.lock
+
+# Jupyter
+.ipynb_checkpoints
+
+# Local databases or secrets
+*.db
+*.sqlite
+*.sqlite3
